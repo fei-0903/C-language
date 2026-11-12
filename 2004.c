@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-float sum(float a, int n);
+float sum(float a, int n);//递归
 int main(void){
     float s, a;
     int n;
