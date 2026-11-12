@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-float sum(float a, int n);//递归
+float sum(float a, int n);
 int main(void){
     float s, a;
     int n;
@@ -15,7 +15,7 @@ int main(void){
     getchar();
     return 0;
 }
-
+//递归
 float sum(float a, int n){
     if (n==1)
     {
